@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">
+                <svg class="logo-svg" width="120" height="40" viewBox="0 0 120 40">
+                    <defs>
+                        <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#ffd700;stop-opacity:1" />
+                            <stop offset="100%" style="stop-color:#ffffff;stop-opacity:1" />
+                        </linearGradient>
+                    </defs>
+                    <text x="10" y="30" class="logo-text" fill="url(#logoGradient)">MCMA</text>
+                </svg>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="content" id="home">
+        <div class="two-column-layout">
+            <div class="column image-column">
+                <div class="image-section">
+                    <img src="picture/ced.jpg" alt="Profile Image" class="template-image">
+                    <div class="resume-overlay">
+                        <a href="resume/MARK CEDRICK ALMUEDA.pdf" target="_blank" class="download-btn">
+                            <i class="fas fa-download"></i>
+                            View Resume
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="column content-column">
+                <h1>Mark Cedrick M. Almueda</h1>
+                <p class="title-text"><strong>Technical Support Engineer</strong></p>
+                <div class="content-box">
+                    <h3>ABOUT ME</h3>
+                    <p>As a Technical Support Engineer with two years of experience, I specialize in providing comprehensive IT solutions and exceptional customer service. My expertise includes troubleshooting complex technical issues, system maintenance, and implementing efficient IT solutions. I excel in maintaining high customer satisfaction through clear communication and quick problem resolution. My commitment to staying current with emerging technologies ensures I deliver cutting-edge support solutions.</p>
+                </div>
+                <div class="content-box skills-box">
+                    <h3>SKILLS</h3>
+                    <div class="skills-container">
+                        <div class="skills-category">
+                            <h4>Technical Skills</h4>
+                            <ul class="skills-list">
+                                <li>Hardware Troubleshooting</li>
+                                <li>Software Installation & Configuration</li>
+                                <li>Network Diagnostics</li>
+                                <li>Microsoft Office and Office 365</li>
+                                <li>Remote Support</li>
+                                <li>IT Security</li>
+                            </ul>
+                        </div>
+                        <div class="skills-category">
+                            <h4>Soft Skills</h4>
+                            <ul class="skills-list">
+                                <li>Customer Service Excellence</li>
+                                <li>Problem-Solving</li>
+                                <li>Clear Communication</li>
+                                <li>Time Management</li>
+                                <li>Team Collaboration</li>
+                                <li>Adaptability</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content-box projects-box" id="projects">
+            <h3>PROJECTS</h3>
+            <div class="projects-container">
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h4>Network Infrastructure Setup</h4>
+                    <p>Configured and deployed enterprise-grade network infrastructure including:</p>
+                    <ul class="project-details">
+                        <li>Layer 2/3 Switch Configuration</li>
+                        <li>VLAN Implementation</li>
+                        <li>Network Security Protocols</li>
+                        <li>Wireless Access Point Deployment</li>
+                    </ul>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h4>Server Management</h4>
+                    <p>Implemented and maintained server infrastructure:</p>
+                    <ul class="project-details">
+                        <li>Windows Server Configuration</li>
+                        <li>Active Directory Setup</li>
+                        <li>File Server Implementation</li>
+                        <li>Backup System Deployment</li>
+                    </ul>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h4>Office 365 Security & Email Management</h4>
+                    <p>Enhanced security and email management in Office 365 through:</p>
+                    <ul class="project-details">
+                        <li>Advanced Threat Protection </li>
+                        <li>Data Security </li>
+                        <li>Access Control </li>
+                        <li>User Management </li>
+                        <li>Email Group Management </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="content-box contact-box" id="contact">
+            <h3>CONTACT ME</h3>
+            <div class="contact-container">
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fab fa-facebook"></i>
+                    </div>
+                    <h4>Facebook</h4>
+                    <a href="https://www.facebook.com/markcedrick.almueda" target="_blank" class="contact-link">Connect on Facebook</a>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <h4>GitHub</h4>
+                    <a href="https://github.com/Yotsubanashi" target="_blank" class="contact-link">View GitHub Profile</a>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h4>Email</h4>
+                    <a href="mailto:cedrickalmueda082100@gmail.com" class="contact-link">cedrickalmueda082100@gmail.com</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</body>
+</html> 
