@@ -1,3 +1,14 @@
+// Loader functionality
+window.addEventListener('load', function() {
+    const loader = document.querySelector('.loader');
+    setTimeout(() => {
+        loader.classList.add('fade-out');
+        setTimeout(() => {
+            loader.style.display = 'none';
+        }, 500);
+    }, 1500); // Show loader for 1.5 seconds
+});
+
 document.addEventListener('DOMContentLoaded', () => {
     const navbar = document.querySelector('.navbar');
     
