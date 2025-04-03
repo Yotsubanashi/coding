@@ -520,10 +520,6 @@ p {
     .nav-links {
         gap: 1rem;
     }
-    
-    .switch {
-        margin-left: 1rem;
-    }
 }
 
 /* Theme Toggle Styles */
